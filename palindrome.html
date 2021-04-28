@@ -8,12 +8,22 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="">
+    <script src="bundle.js"></script>
 </head>
 
 <body>
     <h1>Palindrome Tester</h1>
 
-    <script src="bundle.js" async defer></script>
+    <form id="palindromeTester">
+        <textarea name="phrase" rows="10" cols="30"></textarea>
+        <br>
+        <button type="submit">Is it a palindrome?</button>
+    </form>
+
+    <h2>Result</h2>
+
+    <p id="palindromeResult"></p>
+
 </body>
 
 </html>
